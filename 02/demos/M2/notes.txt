@@ -1,0 +1,32 @@
+// Workaround for testing behavior that opens a new tab
+https://docs.cypress.io/guides/references/trade-offs#Multiple-tabs
+
+// List of open issues (and temporary workarounds)
+https://github.com/cypress-io/cypress/issues
+
+// Additional resources for installing node
+https://nodejs.dev/learn/how-to-install-nodejs
+
+// Install dependencies
+npm install
+
+// Run application
+npm start
+
+// Install Angular CLI
+npm install -g @angular/cli
+
+// Add Cypress using Angular CLI
+ng add @cypress/schematic
+
+// Open Cypress
+npx cypress Open
+
+// Enable executing remote scripts (to resolve a potential issue of running 'ng add' on Windows OS)
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+// Additional dependencies needed for running Cypress on Linux (Ubuntu)
+sudo apt-get install libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth xvfb
+
+// More information for running Cypress on Linux
+https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements

@@ -1,0 +1,11 @@
+// CSS Selectors
+https://www.w3schools.com/cssref/css_selectors.asp
+
+// How to use Data Attributes
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
+
+// Cypress Assertions
+https://docs.cypress.io/guides/references/assertions
+
+// Faker.js
+https://fakerjs.dev

@@ -1,0 +1,8 @@
+// List of available Cypress plugins
+https://docs.cypress.io/plugins/directory
+
+// List of cy.request() arguments
+https://docs.cypress.io/api/commands/request
+
+// Cypress docs
+https://docs.cypress.io
